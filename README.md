@@ -20,11 +20,10 @@ Ensure you have Python 3.13 or later installed.
    poetry --version
 
 4. Install dependencies:
-   poetry lock
    poetry install
 
 5. To fetch PubMed articles, run:
-   poetry run get-papers-list "search query" 
+   poetry run get-papers-list "search query"  -d -f file_name.csv
 
 
 # Usage
